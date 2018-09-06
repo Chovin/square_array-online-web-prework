@@ -1,5 +1,3 @@
 def square_array(array)
-  ar = []
-  array.each { |x| ar << x**2 }
-  ar
+  array.collect { |x| ar << x**2 }
 end
